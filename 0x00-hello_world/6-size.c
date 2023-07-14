@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	write("Size of a char: %d byte(s)\n", size of (char));
-	write("Size of an int: %d byte(s)\n", size of (int));
-	write("Size of a long int: %d byte(s)\n", size of (long int));
-	write("Size of a float: %d byte(s)\n", size of (float));
+	write("Size of a char: %d byte(s)\n", sizeof(char));
+	write("Size of an int: %d byte(s)\n", sizeof(int));
+	write("Size of a long int: %d byte(s)\n", sizeof(long int));
+	write("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
 }
