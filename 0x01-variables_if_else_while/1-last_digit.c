@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints if number is positive, zero or negative
+ * main - Prints the last digit of the number
  * Return: Always 0 (success)
  *
  */
@@ -10,7 +10,8 @@
 int main(void)
 
 {
-	int n; lastd;
+	int n;
+	int lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
