@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 98 Fibonacci numbers
- * 1 and 2 separated by a comma followed by a space.
+ * main - Prints the first 98 Fibonacci numb
+ * 1 and 2, separated by a comma followed by space
  * Return: Always 0.
  */
 
@@ -11,7 +11,9 @@ int main(void)
 {
 
 	int count;
-	unsigned long fib1 = 0; fib2 = 1; sum;
+	unsigned long fib1 = 0;
+	unsigned long fib2 = 1;
+	unsigned long sum;
 	unsigned long fib1_half1;
 	unsigned long fib1_half2;
 	unsigned long fib2_half1;
