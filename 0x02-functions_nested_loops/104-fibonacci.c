@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 98 Fibonacci numb
- * 1 and 2, separated by a comma followed by space
+ * main - Fibonacci <3
+ *
+ * Purpose - no hardcode
+ *
  * Return: Always 0.
  */
 
