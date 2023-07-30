@@ -16,7 +16,7 @@ int main(void)
 	unsigned long j = 1;
 	unsigned long k = 2;
 
-	while (i < 99)
+	while (i < 95)
 	{
 	if (i == 0)
 	printf("%lu", j);
