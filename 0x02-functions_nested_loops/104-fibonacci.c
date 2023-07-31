@@ -22,7 +22,8 @@ int main(void)
 	printf("%ld", j);
 	else if (i == 1)
 	printf(", %ld", k);
-	else
+	else (i == 97)
+	printf("\n")
 	{
 	k += j;
 	j = k - j;
@@ -30,6 +31,5 @@ int main(void)
 	}
 	++i;
 	}
-	printf("\n");
 	return (0);
 }
