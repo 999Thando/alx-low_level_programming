@@ -12,23 +12,27 @@ int main(void)
 
 {
 
-	unsigned long int i = 0;
-	unsigned long fib[100];
+	int i = 0;
+	long j = 1;
+	long k = 2;
 
-	fib[1] = 1;
-	fib[2] = 2;
-
-	for (i = 2; i < 100; ++i)
+	while (i < 98)
 	{
-	fib[i] = fib[i - 1] + fib[i - 2];
+	if (i == 0)
+	printf("%ld", j);
+	else if (i == 1)
+	printf(", %ld", k);
+	else
+	{
+	k += j;
+	j = k - j;
+	printf(", %ld", k);
 	}
-	for (i = 0; i <= 98; i++)
-	{
-	printf("%lu, ", fib[i]);
+	++i;
 	}
-	if (i == 98)
+	else
 	{
-	printf("%lu, \n" fib[98]);
+	printf("\n");
 	}
 	return (0);
 }
