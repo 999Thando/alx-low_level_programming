@@ -13,9 +13,9 @@ int main(void)
 {
 
 	int i = 0;
-	long unsigned fib1 = 1;
-	long unsigned fib2 = 2;
-	long unsigned sum;
+	unsigned long fib1 = 1;
+	unsigned long fib2 = 2;
+	unsigned long sum;
 	
 
 	for (i = 0; i <= 99; i++)
