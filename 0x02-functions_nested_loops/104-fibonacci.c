@@ -28,7 +28,7 @@ int main(void)
 	}
 	if (i == 98)
 	{
-	printf("%lu\n" 98);
+	printf("%lu\n" fib[98]);
 	}
 	return (0);
 }
