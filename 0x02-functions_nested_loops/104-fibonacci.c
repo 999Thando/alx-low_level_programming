@@ -12,17 +12,22 @@ int main(void)
 
 {
 
-	unsigned long int i = 0;
+	int i = 0;
 	unsigned long fib1 = 1;
 	unsigned long fib2 = 2;
 
-	for (i = 0; i <= 98; ++i)
+	for (i = 2; i < 100; ++i)
 	{
 	fib2 += fib1;
 	fib1 = fib2 - fib1;
-	printf("%lu", i);
+	}
+	for (i = 0; i <= 98; i++)
+	{
+	printf("%lu, ", fib2);
 	}
 	if (i == 98)
-	printf("\n");
+	{
+	printf("%lu\n" i);
+	}
 	return (0);
 }
