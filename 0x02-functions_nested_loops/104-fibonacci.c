@@ -12,7 +12,7 @@ int main(void)
 
 {
 
-	int i = 0;
+	unsigned long int i = 0;
 	unsigned long fib[100];
 
 	fib[1] = 1;
