@@ -10,12 +10,13 @@
 
 int main(void)
 
-	{
+{
 
 	int i = 0;
-	unsigned long fib1 = 1;
-	unsigned long fib2 = 2;
-	unsigned long sum;
+	long unsigned fib1 = 1;
+	long unsigned fib2 = 2;
+	long unsigned sum;
+	
 
 	for (i = 0; i <= 99; i++)
 	{
@@ -25,10 +26,12 @@ int main(void)
 	fib1 = fib2;
 	fib2 = sum;
 	if (i == 98)
+	{
 	printf("\n");
 	}
 	else
 	{
 	printf(",");
+	}
 	return (0);
 }
