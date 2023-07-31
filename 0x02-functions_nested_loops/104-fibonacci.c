@@ -19,9 +19,15 @@ int main(void)
 
 	for (i = 0; i <= 99; i++)
 	{
-	sum = fib1 + fib2;
-	printf("%lu", sum);
+	if (i == 0)
+	{
+	printf("%lu", fib1);
 	}
+	else if (i == 1)
+	{
+	printf("%ld", fib2)
+	}
+	sum = fib1 + fib2;
 	fib1 = fib2;
 	fib2 = sum;
 	if (i == 98)
@@ -31,6 +37,7 @@ int main(void)
 	else
 	{
 	printf(",");
+	}
 	}
 	return (0);
 }
