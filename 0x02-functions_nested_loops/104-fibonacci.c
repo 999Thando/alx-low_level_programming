@@ -17,7 +17,7 @@ int main(void)
 	unsigned long fib2 = 2;
 	unsigned long sum;
 
-	for (i = 0; i <= 98; i++)
+	for (i = 0; i <= 98; ++i)
 	{
 	sum = fib1 + fib2;
 	fib1 = fib2;
