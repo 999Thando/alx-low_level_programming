@@ -12,15 +12,14 @@ int main(void)
 
 {
 
-	int i = 0;
+	unsigned long int i = 0;
 	unsigned long fib1 = 1;
 	unsigned long fib2 = 2;
 
 	for (i = 0; i <= 98; ++i)
 	{
-	sum = fib1 + fib2;
-	fib1 = fib2;
-	fib2 = fib1;
+	fib2 += fib1;
+	fib1 = fib2 - fib1;
 	printf("%lu", i);
 	}
 	if (i == 98)
