@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - Determine if a number is positive,negative or zero
+ * positive_or_negative - Determine if a number is positive, negative or zero
  * 0: Is the number to be  checked
- * Return: Always 0
+ * @i: Integer to be checked
  */
+
 void positive_or_negative(int i)
 {
 
@@ -21,5 +22,4 @@ void positive_or_negative(int i)
 	{
 	printf("%d is positive\n", i);
 	}
-	return;
 }
