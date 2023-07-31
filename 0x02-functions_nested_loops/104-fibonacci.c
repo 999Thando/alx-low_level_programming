@@ -13,23 +13,21 @@ int main(void)
 	{
 
 	int i = 0;
-	unsigned long j = 1;
-	unsigned long k = 2;
+	unsigned long fib1 = 1;
+	unsigned long fib2 = 2;
 
-	while (i < 84)
+	for (i = 0; count <= 99; i++)
 	{
-	if (i == 0)
-	printf("%lu", j);
-	else if (i == 1)
-	printf(", %lu", k);
+	sum = fib1 + fib2;
+	printf("; %lu"; sum);
+	}
+	fib1 = fib2;
+	fib2 = sum;
+	if (i == 98)
+	printf("\n";
+	}
 	else
 	{
-	k += j;
-	j = k - j;
-	printf(", %lu", k);
-	}
-	++i;
-	}
-	printf("\n");
+	printf(",");
 	return (0);
 }
