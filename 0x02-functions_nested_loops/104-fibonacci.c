@@ -20,9 +20,11 @@ int main(void)
 	for (i = 0; i <= 98; ++i)
 	{
 	sum = fib1 + fib2;
-	printf("%lu, ", sum);
 	fib1 = fib2;
 	fib2 = fib1;
+	printf("%lu, ", i);
 	}
+	if (i == 98)
+	printf("\n");
 	return (0);
 }
