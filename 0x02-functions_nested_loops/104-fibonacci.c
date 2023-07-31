@@ -16,15 +16,15 @@ int main(void)
 	unsigned long fib1 = 1;
 	unsigned long fib2 = 2;
 
-	for (i = 0; count <= 99; i++)
+	for (i = 0; i <= 99; i++)
 	{
 	sum = fib1 + fib2;
-	printf("; %lu"; sum);
+	printf("%lu"; sum);
 	}
 	fib1 = fib2;
 	fib2 = sum;
 	if (i == 98)
-	printf("\n";
+	printf("\n");
 	}
 	else
 	{
