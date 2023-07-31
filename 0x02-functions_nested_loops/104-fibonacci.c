@@ -25,7 +25,7 @@ int main(void)
 	}
 	else if (i == 1)
 	{
-	printf("%ld", fib2)
+	printf("%ld", fib2);
 	}
 	sum = fib1 + fib2;
 	fib1 = fib2;
