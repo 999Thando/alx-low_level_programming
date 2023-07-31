@@ -30,9 +30,6 @@ int main(void)
 	}
 	++i;
 	}
-	else
-	{
 	printf("\n");
-	}
 	return (0);
 }
