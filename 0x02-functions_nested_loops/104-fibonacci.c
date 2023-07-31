@@ -15,7 +15,7 @@ int main(void)
 	int i = 0;
 	unsigned long fib[100];
 
-	fib[1] = 1
+	fib[1] = 1;
 	fib[2] = 2;
 
 	for (i = 2; i < 100; ++i)
@@ -28,7 +28,7 @@ int main(void)
 	}
 	if (i == 98)
 	{
-	printf("%lu\n" i);
+	printf("%lu\n" 98);
 	}
 	return (0);
 }
