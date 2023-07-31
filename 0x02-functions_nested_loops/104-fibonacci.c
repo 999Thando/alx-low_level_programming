@@ -13,17 +13,17 @@ int main(void)
 {
 
 	int i = 0;
-	unsigned long fib1 = 1;
-	unsigned long fib2 = 2;
+	unsigned long fib[100];
+	fib1 = 1
+	fib2 = 2;
 
 	for (i = 2; i < 100; ++i)
 	{
-	fib2 += fib1;
-	fib1 = fib2 - fib1;
+	fib[i] = fib[i - 1] + fib[i - 2];
 	}
 	for (i = 0; i <= 98; i++)
 	{
-	printf("%lu, ", fib2);
+	printf("%lu, ", fib[i]);
 	}
 	if (i == 98)
 	{
