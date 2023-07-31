@@ -14,6 +14,7 @@ int main(void)
 
 	int i = 0;
 	unsigned long fib[100];
+
 	fib1 = 1
 	fib2 = 2;
 
