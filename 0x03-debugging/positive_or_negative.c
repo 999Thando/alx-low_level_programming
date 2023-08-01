@@ -2,9 +2,8 @@
 
 /**
  * positive_or_negative - Determine if number is positive, negative or zero
-{* 0: is the number to be checked
+ * 0: is the number to be checked
  * @i: integer input
- * Return: Always 0 (success)
  */
 
 void positive_or_negative(int i)
@@ -23,6 +22,4 @@ void positive_or_negative(int i)
 	{
 	printf("%d is positive\n", i);
 	}
-
-	return;
 }
