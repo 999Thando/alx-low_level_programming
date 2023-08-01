@@ -3,6 +3,7 @@
 /**
  * positive_or_negative - Determine if number is positive, negative or zero
  * 0: is the number to be checked
+ * @i: integer input
  */
 
 void positive_or_negative(int i)
