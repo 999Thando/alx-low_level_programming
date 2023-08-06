@@ -2,7 +2,7 @@
 
 /**
  * main - Program that finds and prints the largest prime factor
- *of the number 612852475143
+ * of the number 612852475143
  * Return: Always 0
  */
 
@@ -11,7 +11,6 @@ int main(void)
 {
 
 	long int a;
-	long int c;
 	long int n;
 
 	n = 612852475143;
@@ -22,11 +21,9 @@ int main(void)
 	{
 	if (n == a)
 	{
-	c = n / a;
-	n = c;
+	printf("%ld\n", a);
 	}
 	}
 	}
-	printf("%ld\n", c);
 	return (0);
 }
