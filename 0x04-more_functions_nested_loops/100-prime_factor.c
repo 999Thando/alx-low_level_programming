@@ -12,7 +12,9 @@ int main(void)
 
 	long int a;
 	long int c;
-	long int n = 612852475143;
+	long int n;
+
+	n = 612852475143;
 
 	for (a = 1; a <= n; a++)
 	{
