@@ -22,11 +22,11 @@ int main(void)
 	{
 	if (n == a)
 	{
-	printf("%ld\n", a);
-	break;
-	}
 	c = n / a;
 	n = c;
+	}
+	printf("%ld\n", c);
+	break;
 	}
 	}
 	return (0);
