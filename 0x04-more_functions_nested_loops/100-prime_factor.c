@@ -22,7 +22,7 @@ int main(void)
 	{
 	if (n == a)
 	{
-	printf("%ld\n", c);
+	printf("%ld\n", n);
 	break;
 	}
 	c = n / a;
