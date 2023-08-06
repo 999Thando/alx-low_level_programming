@@ -11,6 +11,7 @@ int main(void)
 {
 
 	long int a;
+	long int c;
 	long int n;
 
 	n = 612852475143;
@@ -22,7 +23,11 @@ int main(void)
 	if (n == a)
 	{
 	printf("%ld\n", a);
+	break;
 	}
+	c = n / a;
+	n = c;
+	printf("%ld\n", c);
 	}
 	}
 	return (0);
