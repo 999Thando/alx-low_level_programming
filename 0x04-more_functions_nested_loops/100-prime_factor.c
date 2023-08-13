@@ -19,15 +19,15 @@ int main(void)
 	for (a = 1; a <= n; a++)
 	{
 	if (n % a == 0)
+	c = n / a;
+	n = c;
+	printf("%ld\n", c);
 	{
 	if (n == a)
 	{
 	printf("%ld\n", a);
 	break;
 	}
-	c = n / a;
-	n = c;
-	printf("%ld\n", c);
 	}
 	}
 	return (0);
