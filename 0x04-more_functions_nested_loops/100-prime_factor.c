@@ -16,7 +16,7 @@ int main(void)
 
 	n = 612852475143;
 
-	for (a = 3; a <= n; a++)
+	for (a = 3; a <= 6857; a++)
 	{
 	if (n % a == 0)
 	c = n / a;
