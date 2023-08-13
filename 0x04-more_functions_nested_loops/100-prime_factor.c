@@ -16,12 +16,12 @@ int main(void)
 
 	n = 612852475143;
 
-	for (a = 1; a <= n; a++)
+	for (a = 2; a <= n; a++)
 	{
 	if (n % a == 0)
 	c = n / a;
 	n = c;
-	printf("%ld\n", n);
+	printf("%ld\n", c);
 	{
 	if (n == a)
 	{
