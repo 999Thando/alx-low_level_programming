@@ -20,8 +20,8 @@ int main(void)
 	{
 	if (n % a == 0)
 	c = n / a;
-	c = n;
-	printf("%ld\n", c);
+	n = c;
+	printf("%ld\n", n);
 	{
 	if (n == a)
 	{
