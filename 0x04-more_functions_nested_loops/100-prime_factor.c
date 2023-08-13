@@ -16,9 +16,9 @@ int main(void)
 
 	n = 612852475143;
 
-	for (a = 1; a <= n; a++)
+	for (a = 2; a <= n; a++)
 	{
-	if (n % 1 == 0)
+	if (n % 2 == 0)
 	{
 	if (n == a)
 	{
