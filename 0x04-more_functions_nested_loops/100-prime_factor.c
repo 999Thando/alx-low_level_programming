@@ -16,9 +16,9 @@ int main(void)
 
 	n = 612852475143;
 
-	for (a = 3; a <= 6857; a++)
+	for (a = 1; a <=n; a++)
 	{
-	if (n % a == 0)
+	if (n % 2 == 0)
 	c = n / a;
 	n = c;
 	printf("%ld\n", c);
